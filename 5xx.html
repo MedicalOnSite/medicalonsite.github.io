@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="omWeb" ng-controller="MainCtrl">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    
+    <title>Server Error - Medical On Site</title>
+
+	<style>
+		body {
+			background: white;
+			margin: 0;
+			padding: 0;
+			font-family: monospace;
+		}
+		.graphic {
+			float: left;
+			width: 40px;
+		}
+		.message {
+			background: white;
+			margin: 0 auto;
+			color: #166339;
+			padding: 100px 5px;
+			max-width: 590px;
+			
+		}
+		.twitter {
+			margin: 50px auto 0 auto;
+			max-width: 520px;
+		}
+		h1 {
+			border-bottom: solid thin #166339;
+			margin-top: 0;
+		}
+		h1, p, h2, ul {
+			margin-left: 70px;
+			max-width: 520px;
+		}
+	</style>
+</head>
+
+<body>
+
+	<div class="message">
+
+		<img class="graphic" src="exclaim.png" />
+
+		<h1>Something went wrong...</h1>
+
+		<p>
+			<strong>There was server error while processing your request.</strong>
+		</p>
+
+		<h2>More Information</h2>
+
+		<p>
+			Information about significant
+			service intrupptions will listed in our twitter feed below.
+		</p>
+
+
+		<h2>Contact</h2>
+		<p>If you need technical support, please send us a private message through our twitter account <a href="https://twitter.com/medicalonsite">@medicalonsite</a>.</p>
+
+
+	<div class="twitter">
+		<a class="twitter-timeline" data-dnt="true" href="https://twitter.com/medicalonsite" data-widget-id="593686784803909632">Tweets by @medicalonsite</a>
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+	</div>
+
+
+	</div>
+
+
+
+
+</body>
