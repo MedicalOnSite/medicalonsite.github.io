@@ -1,0 +1,71 @@
+@media (max-width: 799px) {
+
+    .body {
+        width: auto;
+    }
+
+    #banner {
+        text-align: center;
+    }
+
+    #banner .contact-us,
+    #banner .contact-us a {
+        float: none;
+    }
+
+
+    #tagline,
+    #info_graphic,
+    #intro,
+    #reasons,
+    #invite,
+    #about,
+    #content,
+    #divider nav {
+        width: auto;
+        margin-left: 20px;
+        margin-right: 20px;
+        float: none;
+    }
+
+    #info_graphic {
+        text-align: center;
+        
+    }
+
+    #info_graphic img {
+        float: none !important;
+        margin: 0;
+        padding: 0;
+    }
+
+
+}
+
+@media (max-width: 649px) {
+    #reasons {
+        background: white;
+        padding-left: 20px;
+    }
+}
+
+@media (max-width: 499px) {
+    #about .site-links li {
+        display: block;
+
+    }
+    #about .site-links a {
+        display: block;
+        margin: 10px;
+    }
+}
+
+@media (max-width: 385px) {
+    #banner .logo-link img {
+        width: 100%;
+    }
+
+     #info_graphic img {
+        width: 100%;
+     }
+}
