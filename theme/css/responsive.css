@@ -27,6 +27,10 @@
         margin-right: 20px;
         float: none;
     }
+    
+    #intro {
+        margin-top: 0;
+    }
 
     #info_graphic {
         text-align: center;
